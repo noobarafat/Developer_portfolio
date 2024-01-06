@@ -108,6 +108,12 @@ header{
 
 
 /* Main Section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
 
 /* About Section style */
 .about{
@@ -115,4 +121,15 @@ header{
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 150px;
+}
+
+.about-info-container
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info{
+    text-align: center;
 }
