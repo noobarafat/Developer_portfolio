@@ -225,5 +225,42 @@ main section {
     border-radius: 5px;
 }
 
+/* footer style */
+
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 30px 150px;
+    gap: 100px;
+}
+
+.footer-section-title{
+    font-size:30px ;
+    text-align: center;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"] , .contact input[type="email"] ,textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    color: #757575;
+    border: 5px;
+    background: white;
+    border: 0;
+    width: 100%;
+}
+
+.Social-media-links a{
+    margin-right: 40px;
+}
+
+
+
+
 
 
